@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* селектор по тэгу
+h1 {
+    color: blue;
+}
+/* селектор по классу */
+/* у селектора по классу приоритер выше, 
+поэтому цвет будет фиолетовый у заголовка */
+/* title {
+    color: blueviolet;
+} */ 
+
+html{
+    background-color: rgb(214, 215, 229);
+    font-family: 'Inter Tight', sans-serif;
+}
+
+
+.title, .dsc {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    background-color: rgb(36, 7, 74);
+    height: 150px;
+    margin-top: 100px;
+}
+.flex {
+    display: flex;
+}
+
+.menu {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.menu-link {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    color: rgb(36, 7, 74);
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+}
+
+.menu-link:hover {
+    color: white;
+    background-color: rgb(36, 7, 74);
+    border: 1px solid white;
+
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.main-item {
+
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+.item {
+    width: 263px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.item-pic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.txt-box {
+    background-color: rgba(69, 40, 106, 0.147);;
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.item-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
